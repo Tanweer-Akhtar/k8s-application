@@ -12,8 +12,8 @@ variables:
 
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '356d6e30-3e7b-458c-af4d-25e5dcc05cd7'
-  imageRepository: 'ksapplication'
-  containerRegistry: 'ghostauacr.azurecr.io'
+  imageRepository: 'htk8sacr'
+  containerRegistry: 'htk8sacr.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'ghostauacr8f8b-auth'
